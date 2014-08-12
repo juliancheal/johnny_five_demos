@@ -15,5 +15,5 @@ board.on("ready", function() {
       leds.push(pin);
   }
   var array = new five.Led.Array(leds);
-  array.on();
+  array.off();
 });
